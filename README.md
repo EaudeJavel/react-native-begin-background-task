@@ -1,22 +1,26 @@
-# @alexandersandberg/react-native-begin-background-task
+# @eaudejavel/react-native-begin-background-task
 
->⚠️ Note: This only works on iOS and will be ignored on other platforms.
+> ⚠️ Note: This only works on iOS and will be ignored on other platforms.
 
 ## Installation
 
 ```zsh
-npm i @alexandersandberg/react-native-begin-background-task
+npm i @eaudejavel/react-native-begin-background-task
 ```
+
 then...
 
 ```zsh
 npx pod-install
 ```
 
-
 ## Usage
+
 ```javascript
-import { beginBackgroundTask, endBackgroundTask } from '@alexandersandberg/react-native-begin-background-task';
+import {
+  beginBackgroundTask,
+  endBackgroundTask,
+} from "@eaudejavel/react-native-begin-background-task";
 
 // ...
 
@@ -24,5 +28,5 @@ const backgroundTaskId = await beginBackgroundTask();
 
 // Your task that you want to keep running if the app goes to the background...
 
-await endBackgroundTask(backgroundTaskId)
+await endBackgroundTask(backgroundTaskId);
 ```
