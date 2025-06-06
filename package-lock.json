@@ -1,6 +1,6 @@
 {
   "name": "@eaudejavel/react-native-begin-background-task",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "React Native wrapper for beginBackgroundTask, iOS only",
   "main": "index.js",
   "repository": "https://github.com/eaudejavel/react-native-begin-background-task",
